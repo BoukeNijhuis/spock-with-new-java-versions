@@ -37,7 +37,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- to enable Java 11 -->
+            <!-- to enable newer Java versions -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
