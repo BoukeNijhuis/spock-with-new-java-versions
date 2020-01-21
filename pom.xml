@@ -37,7 +37,7 @@
                     <target>14</target>
                 </configuration>
             </plugin>
-            <!-- otherwise it does not work with Spock 2.0 -->
+            <!-- otherwise no tests are executed -->
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.0</version>
@@ -52,7 +52,7 @@
             <version>2.0-M1-groovy-2.5</version>
             <scope>test</scope>
         </dependency>
-        <!-- add the latest groovy version which works with the higher Java versions -->
+        <!-- add the latest groovy version which removes the warnings with the higher Java versions -->
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy</artifactId>
